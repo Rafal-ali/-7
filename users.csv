@@ -1,0 +1,5 @@
+id,username,password,role
+1,admin,$2b$12$p2CINconfFpCMJfMY5ZPGOc7MT7STnkbdL1UssetEPcs8gihPQXRi,admin
+3,علي,$2b$12$aj4ePS7guD7nbKHv8X9D/u.0Fs3aCfjnfpOAGoOZFAjBmTgCQYB9q,customer
+4,محمد,$2b$12$1dh7BWGJe.iS1aBxSfDZ5eBhLDW/0XCioCZG6GNkbdKQeYSmeQqea,customer
+5,حبيب,$2b$12$C60vP1.CylSb9zfhvVokBueECrjLLf3iu2Z776s220BAu7JSj/v8y,customer
