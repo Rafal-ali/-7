@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.venv/
+venv/
+instance/*.db
+.git/
+.gitignore
+node_modules/
+nextjs-smart-parking/.next/
+nextjs-smart-parking/node_modules/

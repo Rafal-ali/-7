@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: smart-parking-flask
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    autoDeploy: true
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DB_PATH
+        value: /var/data/parking.db
+    disk:
+      name: smart-parking-data
+      mountPath: /var/data
+      sizeGB: 1
