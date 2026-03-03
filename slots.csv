@@ -1,0 +1,4 @@
+id,status,car_number,user_id
+1,occupied,443,3
+2,occupied,222,4
+3,free,,
